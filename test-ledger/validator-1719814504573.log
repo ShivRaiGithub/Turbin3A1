@@ -1,0 +1,25 @@
+[0m[38;5;8m[[0m2024-07-01T06:15:05.221137178Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m solana-validator 1.18.17 (src:b685182a; feat:4215500110, client:SolanaLabs)
+[0m[38;5;8m[[0m2024-07-01T06:15:05.221329278Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+        ],
+    }
+[0m[38;5;8m[[0m2024-07-01T06:15:05.745158272Z [0m[33mWARN [0m solana_perf[0m[38;5;8m][0m CUDA is disabled
+[0m[38;5;8m[[0m2024-07-01T06:15:05.745219272Z [0m[32mINFO [0m solana_perf[0m[38;5;8m][0m AVX detected
+[0m[38;5;8m[[0m2024-07-01T06:15:05.745228872Z [0m[32mINFO [0m solana_perf[0m[38;5;8m][0m AVX2 detected
+[0m[38;5;8m[[0m2024-07-01T06:15:06.651890860Z [0m[32mINFO [0m solana_faucet::faucet[0m[38;5;8m][0m Faucet started. Listening on: 0.0.0.0:9900
+[0m[38;5;8m[[0m2024-07-01T06:15:06.651966960Z [0m[32mINFO [0m solana_faucet::faucet[0m[38;5;8m][0m Faucet account address: 67Spa8N6p3TzJHdFeC5g1aBbcQbkbfM9jsJ2Hq2ZUEz5
+[0m[38;5;8m[[0m2024-07-01T06:15:07.680946347Z [0m[32mINFO [0m solana_validator::admin_rpc_service[0m[38;5;8m][0m started admin rpc service!
+[0m[38;5;8m[[0m2024-07-01T06:15:08.753199034Z [0m[32mINFO [0m solana_test_validator[0m[38;5;8m][0m Feature for 41tVp5qR1XwWRt5WifvtSQyuxtqQWJgEK8w91AtBqSwP deactivated
+[0m[38;5;8m[[0m2024-07-01T06:15:09.790451485Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Maximum open file descriptors: 1048576
+[0m[38;5;8m[[0m2024-07-01T06:15:09.825743198Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Opening blockstore at "test-ledger/rocksdb"
+[0m[38;5;8m[[0m2024-07-01T06:15:10.186578724Z [0m[33mWARN [0m solana_ledger::blockstore_db[0m[38;5;8m][0m Unable to detect Rocks columns: Error { message: "IO error: No such file or directory: While opening a file for sequentially reading: test-ledger/rocksdb/CURRENT: No such file or directory" }
+[0m[38;5;8m[[0m2024-07-01T06:15:26.940949225Z [0m[32mINFO [0m solana_ledger::blockstore[0m[38;5;8m][0m Opening blockstore done; blockstore open took 17.1s
+[0m[38;5;8m[[0m2024-07-01T06:15:27.806527738Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m metrics disabled: environment variable not found
+[0m[38;5;8m[[0m2024-07-01T06:15:27.850033583Z [0m[32mINFO [0m solana_metrics::metrics[0m[38;5;8m][0m datapoint: shred_insert_is_full total_time_ms=1i slot=0i last_index=31i num_repaired=0i num_recovered=0i
+[0m[38;5;8m[[0m2024-07-01T06:15:28.021090769Z [0m[1m[31mERROR[0m solana_ledger::blockstore[0m[38;5;8m][0m tar stdout: 
+[0m[38;5;8m[[0m2024-07-01T06:15:28.021163368Z [0m[1m[31mERROR[0m solana_ledger::blockstore[0m[38;5;8m][0m tar stderr: /bin/sh: line 1: bzip2: command not found
+    tar: test-ledger/genesis.tar.bz2: Wrote only 4096 of 10240 bytes
+    tar: Child returned status 127
+    tar: Error is not recoverable: exiting now
+    
