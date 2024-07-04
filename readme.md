@@ -1,8 +1,6 @@
 
  https://explorer.solana.com/tx/iGt2udeqm5sAqVZtYbXJvAiwQLfABXkXZ1nb7X6ThrFGRedCiTHuv8HWJp3HCDyMn2ZWnxasPufLbzupFmXXUvj?cluster=devnet
 
-Wallet address : 4TNuFug3o1sFmPujbGtgNnLaeWqmbUVLdpwURkMsuwHs
-
  # Introduction 
  This repository is part of assessments of 'Bridge to Turbin3' program. It is using solana blockchain to make the transactions. Some of the the transactions perfomed can be be made on the solana localnet instead of the devenet in case SOL is not available.
 
