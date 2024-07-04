@@ -30,7 +30,7 @@ Output :
     yarn run v1.22.19
     $ ts-node ./keygen.ts
     You've generated a new Solana wallet: 4TNuFug3o1sFmPujbGtgNnLaeWqmbUVLdpwURkMsuwHs
-    Solana Wallet Secret Key: 142,24,35,86,52,35,243,227,70,43,118,152,217,93,204,182,137,190,167,139,137,155,151,146,174,81,28,217,222,242,70,226,51,84,236,226,208,10,160,111,145,52,111,6,73,203,21,43,223,0,196,160,237,33,113,218,75,233,157,9,178,254,226,234]
+    Solana Wallet Secret Key: 142,24,35,...........,234]
     Done in 2.11s.
 To fund the newly generated wallet :
    
@@ -48,6 +48,15 @@ To make simple transaction from one wallet to another, you can use :
     yarn transfer
 
 NOTE : transfer file requires another wallet address which can be generated using ```yarn keygen```
+
+Output:
+
+
+    yarn run v1.22.19
+    $ ts-node ./transfer.ts
+    Success! Check out your TX here: 
+            https://explorer.solana.com/tx/2MxBpJxk7WBhLjCGVFdFLuj7aieLbUcbEXSR4Qe1BrYnbMM3S9D7KGhdyaE5QZmAt7TTycPBew5e8fC2junKhg5i?cluster=devnet
+    Done in 15.45s.
 
 To interact with the program published by the WBA :
    
